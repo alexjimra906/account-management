@@ -5,21 +5,22 @@ This project demonstrates critical aspects of managing user accounts within an A
 
 ---
 ## Environments and Technologies Used
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop Protocol (RDP)
-- Active Directory Domain Services (AD DS)
-- Event Viewer (Logs and Monitoring)
+- **Microsoft Azure**: Virtual Machines, Virtual Networks, Resource Groups, and Subnets.
+- **Remote Desktop Protocol (RDP)**: Managing virtual machines from a remote interface.
+- **Active Directory Domain Services (AD DS)**: User and group management, security policies.
+- **Group Policy Management**: Account lockout thresholds and other security settings.
+- **DNS Management**: Dynamic and static DNS record creation and resolution.
 
 ## Operating Systems Used
-- Windows Server 2019
-- Windows 10 (21H2)
+- **Windows Server 2022**: Domain Controller and DNS Server.
+- **Windows 10**: Client machine for testing and validation.
 
 ## List of Prerequisites
-- Azure subscription with resources created
-- Domain Controller (DC-1) VM deployed and configured
-- Client Machine (Client-1) VM deployed and connected to DC-1
-- Active Directory installed and domain users pre-configured
-- Group Policy Management tools installed
+1. Active Microsoft Azure subscription.
+2. Basic understanding of networking concepts (IP, DNS, Subnets).
+3. Familiarity with Windows operating systems.
+4. Remote Desktop client installed on a local machine.
+5. Script editor (e.g., PowerShell ISE) for user account automation.
 
 ---
 
